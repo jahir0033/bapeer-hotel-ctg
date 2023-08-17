@@ -24,5 +24,5 @@ document.getElementById('btn-deposit').addEventListener('click',function(){
     const newBalanceTotal=newDepositTotalAmount + balancetTotalAmount;
     balancetTotalElement.innerText=newBalanceTotal;
     // step 7
-    depositFiled.value = '';
+    depositFiled.value = ''; 
 })
